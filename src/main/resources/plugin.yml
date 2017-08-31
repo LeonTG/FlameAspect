@@ -1,0 +1,10 @@
+name: ${project.name}
+main: ${project.groupId}.${project.artifactId}.Main
+version: ${project.version}
+author: LeonTG
+description: Adds the ability to turn off fire aspect and flame.
+softdepend: [ProtocolLib]
+
+commands:
+  flameaspect:
+    description: Enable or Disable flame or fire aspect.
